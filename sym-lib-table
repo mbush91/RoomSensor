@@ -1,0 +1,8 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "BMD-340-A-R")(type "KiCad")(uri "${KIPRJMOD}/libs/BMD_340_A_R/BMD-340-A-R.kicad_sym")(options "")(descr ""))
+  (lib (name "BAT-HLD-003-SMT")(type "KiCad")(uri "${KIPRJMOD}/libs/BAT_HLD_003_SMT/BAT-HLD-003-SMT.kicad_sym")(options "")(descr ""))
+  (lib (name "BME280")(type "KiCad")(uri "${KIPRJMOD}/libs/BME280/BME280.kicad_sym")(options "")(descr ""))
+  (lib (name "BMD-360-A-R")(type "KiCad")(uri "${KIPRJMOD}/libs/BMD_360_A_R/2024-06-12_20-32-51.kicad_sym")(options "")(descr ""))
+  (lib (name "FTSH-105-01-F-DV-P-TR")(type "KiCad")(uri "${KIPRJMOD}/libs/FTSH-105-01-F-DV-P-TR/FTSH-105-01-F-DV-P-TR.kicad_sym")(options "")(descr ""))
+)
