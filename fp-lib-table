@@ -5,4 +5,5 @@
   (lib (name "BMD_340_A_R")(type "KiCad")(uri "${KIPRJMOD}/libs/BMD_340_A_R")(options "")(descr ""))
   (lib (name "BMD_360_A_R")(type "KiCad")(uri "${KIPRJMOD}/libs/BMD_360_A_R/BMD_360_A_R")(options "")(descr ""))
   (lib (name "FTSH-105-01-F-DV-P-TR")(type "KiCad")(uri "${KIPRJMOD}/libs/FTSH-105-01-F-DV-P-TR")(options "")(descr ""))
+  (lib (name "LIS2DH12TR")(type "KiCad")(uri "${KIPRJMOD}/libs/LIS2DH12TR")(options "")(descr ""))
 )
