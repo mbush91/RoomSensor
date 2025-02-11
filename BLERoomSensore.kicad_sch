@@ -1279,6 +1279,350 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_01x04_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x04_Pin"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:Battery_Cell"
 			(pin_numbers hide)
 			(pin_names
@@ -2999,6 +3343,12 @@
 		(uuid "49d8d7e3-040c-4263-b7e0-dd12eea41616")
 	)
 	(junction
+		(at 161.925 48.895)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a1f8e47-1ebc-401d-b00f-40e602659cde")
+	)
+	(junction
 		(at 158.75 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3041,6 +3391,12 @@
 		(uuid "8b7dd71d-8f0f-42c1-9b23-69c2d2e83f3d")
 	)
 	(junction
+		(at 164.465 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ebc0ac2-ab3d-4c50-96c9-a6a00d86c444")
+	)
+	(junction
 		(at 207.01 46.355)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3071,6 +3427,12 @@
 		(uuid "e77dcc55-87a0-401d-b7d8-055770df9d2c")
 	)
 	(junction
+		(at 256.54 84.455)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e9245577-217b-4b63-aa30-7939c5aaa25a")
+	)
+	(junction
 		(at 207.01 48.895)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3086,6 +3448,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 48.895) (xy 161.925 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02adc321-6da1-48ae-888f-85ee22ebaed1")
+	)
+	(wire
+		(pts
 			(xy 158.75 118.11) (xy 158.75 120.65)
 		)
 		(stroke
@@ -3096,6 +3468,16 @@
 	)
 	(wire
 		(pts
+			(xy 258.445 76.835) (xy 258.445 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "081b3282-24e5-4dc2-8df6-3fda01eeef3f")
+	)
+	(wire
+		(pts
 			(xy 114.935 25.4) (xy 110.49 25.4)
 		)
 		(stroke
@@ -3103,6 +3485,16 @@
 			(type default)
 		)
 		(uuid "0951602f-126b-4094-b5ab-7c07100b00d6")
+	)
+	(wire
+		(pts
+			(xy 164.465 97.79) (xy 158.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb65ca5-03fb-4707-bee8-0d61b9899e92")
 	)
 	(wire
 		(pts
@@ -3123,6 +3515,16 @@
 			(type default)
 		)
 		(uuid "1423405d-62eb-465a-9d4d-0746a456b7a9")
+	)
+	(wire
+		(pts
+			(xy 168.91 97.79) (xy 164.465 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "234cc30a-ba31-469d-9a2b-ec1e87e43e40")
 	)
 	(wire
 		(pts
@@ -3163,6 +3565,16 @@
 			(type default)
 		)
 		(uuid "37786cf8-0d19-49b7-b5f5-7c7c4cabaf52")
+	)
+	(wire
+		(pts
+			(xy 252.73 76.835) (xy 255.905 76.835)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e67b349-3640-4e12-aa67-bfcd1ca68daf")
 	)
 	(wire
 		(pts
@@ -3246,6 +3658,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 84.455) (xy 258.445 84.455)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77720c7a-2ed9-4404-8a7b-ff5e07619495")
+	)
+	(wire
+		(pts
 			(xy 252.73 84.455) (xy 256.54 84.455)
 		)
 		(stroke
@@ -3263,6 +3685,26 @@
 			(type default)
 		)
 		(uuid "7a1e995a-9619-4caa-9ab1-4c2b5e927985")
+	)
+	(wire
+		(pts
+			(xy 161.925 48.895) (xy 165.735 48.895)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d098cd8-7034-48b3-a129-af64e9ee3881")
+	)
+	(wire
+		(pts
+			(xy 255.905 76.835) (xy 255.905 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e6f11be-96c4-4d49-8f21-e350596904d6")
 	)
 	(wire
 		(pts
@@ -3406,6 +3848,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 81.915) (xy 258.445 81.915)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbfb3b8f-87ac-4926-aa9c-cd96d0a42268")
+	)
+	(wire
+		(pts
 			(xy 158.75 113.03) (xy 158.75 115.57)
 		)
 		(stroke
@@ -3443,6 +3895,16 @@
 			(type default)
 		)
 		(uuid "ce10e01e-648b-45de-bb68-9d7ee7cb8af0")
+	)
+	(wire
+		(pts
+			(xy 252.73 71.755) (xy 258.445 71.755)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc893fd-b555-43ed-8f5c-5dc28806dbe0")
 	)
 	(wire
 		(pts
@@ -3523,6 +3985,16 @@
 			(type default)
 		)
 		(uuid "e9df8169-a165-43f0-8004-4e2471bfd132")
+	)
+	(wire
+		(pts
+			(xy 255.905 79.375) (xy 258.445 79.375)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec9fe187-519f-4e07-9d6c-6050c92f706c")
 	)
 	(wire
 		(pts
@@ -3831,7 +4303,7 @@
 	)
 	(global_label "LIS_INT"
 		(shape input)
-		(at 158.75 97.79 0)
+		(at 168.91 97.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3841,7 +4313,7 @@
 		)
 		(uuid "8780bb32-0d83-4bad-a14b-04f0158a82c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 168.4481 97.79 0)
+			(at 178.6081 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3908,6 +4380,28 @@
 		(uuid "92741dc5-d1d2-474f-a15c-b4892218e503")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.4427 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 157.48 41.275 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93952c73-e040-4c5f-8ccf-f24969f5b1f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.48 34.7217 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,6 +4627,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 165.735 41.275 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f395be38-44a5-4c68-a2ec-c6a0eadc626a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 165.735 34.7822 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4452,6 +4968,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 164.465 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b1ca3d8-7bfd-49ae-ae04-24599020da6f")
+		(property "Reference" "TP_LIS1"
+			(at 167.005 99.8219 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 167.005 102.3619 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 159.385 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 159.385 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 164.465 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "772affda-f414-4c9f-bb8e-44ed51018592")
+		)
+		(instances
+			(project "BLERoomSensore"
+				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
+					(reference "TP_LIS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 208.28 135.255 90)
 		(unit 1)
@@ -4469,7 +5052,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "0"
 			(at 209.55 132.715 0)
 			(effects
 				(font
@@ -4488,7 +5071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_51_RoHS_P_4.pdf"
+		(property "Datasheet" ""
 			(at 208.28 135.255 0)
 			(effects
 				(font
@@ -4506,7 +5089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "YAG1290CT-ND"
+		(property "Digikey P/N" ""
 			(at 208.28 135.255 0)
 			(effects
 				(font
@@ -4515,7 +5098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.10"
+		(property "Price" ""
 			(at 208.28 135.255 0)
 			(effects
 				(font
@@ -4524,7 +5107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "RC0603FR-0710KP"
+		(property "Manufacturer P/N" ""
 			(at 208.28 135.255 0)
 			(effects
 				(font
@@ -4533,7 +5116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Seeed Alt." "301010299"
+		(property "Seeed Alt." ""
 			(at 208.28 135.255 0)
 			(effects
 				(font
@@ -4692,6 +5275,113 @@
 			(project "BLERoomSensore"
 				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 157.48 45.085 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50ce79bc-df41-4df7-8003-fcafd6af9ccf")
+		(property "Reference" "R4"
+			(at 160.02 45.0849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 154.94 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 156.464 44.831 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" ""
+			(at 157.48 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 157.48 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 157.48 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Seeed Alt." ""
+			(at 157.48 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2921c033-fd4e-49a5-8342-d0a665a1d5f5")
+		)
+		(pin "2"
+			(uuid "b532a971-bc10-4ad5-8dd6-c640039643f3")
+		)
+		(instances
+			(project "BLERoomSensore"
+				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5187,6 +5877,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 161.925 48.895 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f9dee05-47b7-4a91-a678-81f6c52ed670")
+		(property "Reference" "#PWR011"
+			(at 161.925 55.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.925 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.925 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.925 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 161.925 48.895 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a6fefa8-9476-4782-98b0-e5480c516eeb")
+		)
+		(instances
+			(project "BLERoomSensore"
+				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2025-02-09_19-16-04:FC-135_32.7680KA-A3")
 		(at 46.355 113.665 270)
 		(unit 1)
@@ -5349,7 +6105,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 92.075 106.045 0)
 			(effects
 				(font
@@ -5368,7 +6124,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_51_RoHS_P_4.pdf"
+		(property "Datasheet" ""
 			(at 94.615 107.315 0)
 			(effects
 				(font
@@ -5386,7 +6142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "YAG1290CT-ND"
+		(property "Digikey P/N" ""
 			(at 94.615 107.315 0)
 			(effects
 				(font
@@ -5395,7 +6151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.10"
+		(property "Price" ""
 			(at 94.615 107.315 0)
 			(effects
 				(font
@@ -5404,7 +6160,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "RC0603FR-0710KP"
+		(property "Manufacturer P/N" ""
 			(at 94.615 107.315 0)
 			(effects
 				(font
@@ -5413,7 +6169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Seeed Alt." "301010299"
+		(property "Seeed Alt." ""
 			(at 94.615 107.315 0)
 			(effects
 				(font
@@ -5500,6 +6256,189 @@
 			(project ""
 				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 165.735 45.085 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1e29700-20de-4eb4-87d6-6ee17bd5dd99")
+		(property "Reference" "R5"
+			(at 168.275 45.0849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 163.195 43.815 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 164.719 44.831 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.735 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.735 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" ""
+			(at 165.735 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 165.735 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer P/N" ""
+			(at 165.735 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Seeed Alt." ""
+			(at 165.735 45.085 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3388d65-3203-4b35-a6ce-907dd4c20214")
+		)
+		(pin "2"
+			(uuid "7388fa13-e94d-4518-8572-8a3cfa5843d4")
+		)
+		(instances
+			(project "BLERoomSensore"
+				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 263.525 81.915 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4ed2773-4940-40fb-821b-a17a7ea28045")
+		(property "Reference" "EXP1"
+			(at 265.43 79.3749 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 265.43 81.9149 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
+			(at 263.525 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 263.525 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 263.525 81.915 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "04889da2-eaa9-423a-96d8-93ceb3a1227f")
+		)
+		(pin "3"
+			(uuid "a14c1027-1323-4b4c-a8f6-9dac6134b0ae")
+		)
+		(pin "4"
+			(uuid "08e44266-e14d-49ee-8984-42497a312cf4")
+		)
+		(pin "1"
+			(uuid "3ba59894-9f60-495e-a7a4-ba2065e1f546")
+		)
+		(instances
+			(project ""
+				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
+					(reference "EXP1")
 					(unit 1)
 				)
 			)
@@ -5837,7 +6776,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 97.79 46.99 0)
 			(effects
 				(font
@@ -5856,7 +6795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yageo.com/upload/media/product/products/datasheet/rchip/PYu-RC_51_RoHS_P_4.pdf"
+		(property "Datasheet" ""
 			(at 96.52 49.53 0)
 			(effects
 				(font
@@ -5874,7 +6813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Digikey P/N" "YAG1290CT-ND"
+		(property "Digikey P/N" ""
 			(at 96.52 49.53 0)
 			(effects
 				(font
@@ -5883,7 +6822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Price" "0.10"
+		(property "Price" ""
 			(at 96.52 49.53 0)
 			(effects
 				(font
@@ -5892,7 +6831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer P/N" "RC0603FR-0710KP"
+		(property "Manufacturer P/N" ""
 			(at 96.52 49.53 0)
 			(effects
 				(font
@@ -5901,7 +6840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Seeed Alt." "301010299"
+		(property "Seeed Alt." ""
 			(at 96.52 49.53 0)
 			(effects
 				(font
