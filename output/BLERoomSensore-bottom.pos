@@ -1,0 +1,7 @@
+### Footprint positions - created on 2025-02-11T09:58:21-0500 ###
+### Printed by KiCad version 8.0.8
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val           Package                       PosX       PosY       Rot  Side
+BT1       Battery_Cell  BAT_BAT-HLD-003-SMT_MOD   139.4000   -77.4000    0.0000  bottom
+## End

@@ -1,0 +1,18 @@
+### Footprint positions - created on 2025-02-11T09:58:21-0500 ###
+### Printed by KiCad version 8.0.8
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                    Package                                                   PosX       PosY       Rot  Side
+EXP1      Conn_01x04_Pin         PinHeader_1x04_P1.00mm_Vertical                       142.6000   -88.6000   90.0000  top
+J1        FTSH-105-01-F-DV-P-TR  SAMTEC_FTSH-105-01-F-DV-P-TR                          135.4582   -84.2802  180.0000  top
+R1        0                      R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           137.0584   -79.3750    0.0000  top
+R2        100k                   R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           142.2000   -71.4000  -90.0000  top
+R3        100k                   R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           135.7000   -70.8000   90.0000  top
+R4        10k                    R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           140.8000   -69.6000  -90.0000  top
+R5        10k                    R_0402_1005Metric_Pad0.72x0.64mm_HandSolder           135.1000   -75.5000   90.0000  top
+U2        BME280                 Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering   144.7800   -72.2630  180.0000  top
+U3        BMD-360-A-R            BMD-360_UBL                                           148.3360   -82.1000  -90.0000  top
+U4        LIS2DH12TR             PQFN50P200X200100-12N                                 139.4000   -72.2000  180.0000  top
+U5        PCF8523TK              HVSON-8-1EP_4x4mm_P0.8mm_EP2.2x3.1mm                  131.3500   -71.1250    0.0000  top
+XTAL1     FC-135_32.7680KA-A3    XTAL_FC-135R_EPS                                      126.4000   -71.2000  -90.0000  top
+## End

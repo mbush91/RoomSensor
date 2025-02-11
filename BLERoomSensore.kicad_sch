@@ -1521,6 +1521,198 @@
 				)
 			)
 		)
+		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 2.54 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+				(at 2.54 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Cortex Debug Connector ARM SWD JTAG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*TC2030*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_0"
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "SWDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TMS" bidirectional line)
+				)
+				(pin open_collector line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "~{RESET}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "SWCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TCK" output line)
+				)
+				(pin power_in line
+					(at -2.54 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "SWO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(alternate "TDO" input line)
+				)
+			)
+			(symbol "Conn_ARM_SWD_TagConnect_TC2030-NL_0_1"
+				(rectangle
+					(start -5.08 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers hide)
 			(pin_names
@@ -1959,364 +2151,6 @@
 						(effects
 							(font
 								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "FTSH-105-01-F-DV-P-TR:FTSH-105-01-F-DV-P-TR"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -8.12 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "FTSH-105-01-F-DV-P-TR"
-				(at -7.62 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "FTSH-105-01-F-DV-P-TR:SAMTEC_FTSH-105-01-F-DV-P-TR"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "\nConnector Header Surface Mount 10 position 0.050 (1.27mm)\n"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MF" "Samtec"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/FTSH-105-01-F-DV-K/Samtec+Inc./view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "R"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/FTSH-105-01-F-DV-K/Samtec+Inc./view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "FTSH-105-01-F-DV-K"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=55268&manufacturer=Samtec&part_name=FTSH-105-01-F-DV-K&search_term=ftsh-105-01-f-dv-k"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Samtec"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "FTSH-105-01-F-DV-P-TR_0_0"
-				(rectangle
-					(start -7.62 -7.62)
-					(end 7.62 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -12.7 5.08 0)
-					(length 5.08)
-					(name "01"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "01"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 5.08 180)
-					(length 5.08)
-					(name "02"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "02"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 2.54 0)
-					(length 5.08)
-					(name "03"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "03"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 2.54 180)
-					(length 5.08)
-					(name "04"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "04"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 0 0)
-					(length 5.08)
-					(name "05"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "05"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 0 180)
-					(length 5.08)
-					(name "06"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "06"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -2.54 0)
-					(length 5.08)
-					(name "07"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "07"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -2.54 180)
-					(length 5.08)
-					(name "08"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "08"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -12.7 -5.08 0)
-					(length 5.08)
-					(name "09"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "09"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -5.08 180)
-					(length 5.08)
-					(name "10"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.016 1.016)
 							)
 						)
 					)
@@ -2964,7 +2798,7 @@
 				)
 			)
 		)
-		(symbol "Timer_RTC:PCF8523TK"
+		(symbol "Timer_RTC:PCF8523T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2977,7 +2811,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "PCF8523TK"
+			(property "Value" "PCF8523T"
 				(at 3.81 8.89 0)
 				(effects
 					(font
@@ -2986,7 +2820,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SON:HVSON-8-1EP_4x4mm_P0.8mm_EP2.2x3.1mm"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 				(at 20.32 -8.89 0)
 				(effects
 					(font
@@ -3004,7 +2838,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Realtime Clock/Calendar I2C Interface, HVSON-8"
+			(property "Description" "Realtime Clock/Calendar I2C Interface, SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3022,7 +2856,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "HVSON*1EP*4x4mm*P0.8mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3031,7 +2865,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "PCF8523TK_0_1"
+			(symbol "PCF8523T_0_1"
 				(rectangle
 					(start -10.16 7.62)
 					(end 10.16 -7.62)
@@ -3044,7 +2878,7 @@
 					)
 				)
 			)
-			(symbol "PCF8523TK_1_1"
+			(symbol "PCF8523T_1_1"
 				(pin input line
 					(at -12.7 -2.54 0)
 					(length 2.54)
@@ -3189,24 +3023,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -10.16 90)
-					(length 2.54) hide
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 		)
 		(symbol "power:GND"
@@ -3319,12 +3135,6 @@
 		(uuid "0e13c7df-d6c1-4919-8bb7-22cd01fa76c6")
 	)
 	(junction
-		(at 73.025 102.235)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "208e935f-d28a-4261-9801-dc01fb911627")
-	)
-	(junction
 		(at 87.63 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3361,10 +3171,10 @@
 		(uuid "548c4891-1eb7-4c7f-b8a8-c771fe937c1d")
 	)
 	(junction
-		(at 212.09 137.795)
+		(at 73.025 102.235)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7b5a9629-fa56-438f-974d-16105a73d472")
+		(uuid "73dcd771-c7c6-439f-ab65-38ba72397b36")
 	)
 	(junction
 		(at 94.615 112.395)
@@ -3383,6 +3193,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84274b23-26a3-4a46-836b-58665bd60d65")
+	)
+	(junction
+		(at 67.945 102.235)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8604f3bd-1ace-486e-8fd5-622a3c37dde2")
 	)
 	(junction
 		(at 252.73 84.455)
@@ -3419,12 +3235,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5934d4a-dbb6-4516-9d01-fb8a89b52b0e")
-	)
-	(junction
-		(at 67.945 102.235)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e77dcc55-87a0-401d-b7d8-055770df9d2c")
 	)
 	(junction
 		(at 256.54 84.455)
@@ -3518,6 +3328,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.945 102.235) (xy 73.025 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1edfe8e7-efe3-4d2c-93a0-3430e92eb498")
+	)
+	(wire
+		(pts
 			(xy 168.91 97.79) (xy 164.465 97.79)
 		)
 		(stroke
@@ -3578,16 +3398,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 137.795) (xy 212.09 137.795)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50181544-0c47-4eaf-bcc8-b484b6be625f")
-	)
-	(wire
-		(pts
 			(xy 204.47 41.275) (xy 207.01 41.275)
 		)
 		(stroke
@@ -3618,6 +3428,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.025 102.235) (xy 95.25 102.235)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a9c7216-50db-48ed-9a26-1ed6639cf820")
+	)
+	(wire
+		(pts
 			(xy 110.49 25.4) (xy 110.49 26.67)
 		)
 		(stroke
@@ -3625,16 +3445,6 @@
 			(type default)
 		)
 		(uuid "65f660ce-7206-4e91-a3f3-0fd538e69942")
-	)
-	(wire
-		(pts
-			(xy 237.49 135.255) (xy 239.395 135.255)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68c2576a-7205-4935-9a88-489e0328f6f8")
 	)
 	(wire
 		(pts
@@ -3675,16 +3485,6 @@
 			(type default)
 		)
 		(uuid "78fb8951-382e-4be9-811b-723cf6af0810")
-	)
-	(wire
-		(pts
-			(xy 237.49 145.415) (xy 239.395 145.415)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a1e995a-9619-4caa-9ab1-4c2b5e927985")
 	)
 	(wire
 		(pts
@@ -3798,16 +3598,6 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 137.795) (xy 239.395 137.795)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9357e6c-f62a-43de-8c68-218591994e2a")
-	)
-	(wire
-		(pts
 			(xy 252.73 46.355) (xy 252.73 43.815)
 		)
 		(stroke
@@ -3888,16 +3678,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 137.795) (xy 212.09 140.335)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce10e01e-648b-45de-bb68-9d7ee7cb8af0")
-	)
-	(wire
-		(pts
 			(xy 252.73 71.755) (xy 258.445 71.755)
 		)
 		(stroke
@@ -3968,16 +3748,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.945 102.235) (xy 73.025 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e315b4f6-e5dd-4659-b4d4-c05f97edd62d")
-	)
-	(wire
-		(pts
 			(xy 158.75 90.17) (xy 158.75 92.71)
 		)
 		(stroke
@@ -4016,19 +3786,9 @@
 		)
 		(uuid "fa2d9a2b-ad49-47a2-ae8f-26b2657d680e")
 	)
-	(wire
-		(pts
-			(xy 73.025 102.235) (xy 95.25 102.235)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fab804a1-660b-4f54-8d89-1074d96b7718")
-	)
 	(text "PROG HEADER"
 		(exclude_from_sim no)
-		(at 203.2 125.095 0)
+		(at 197.485 137.16 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -4036,6 +3796,28 @@
 			(justify left bottom)
 		)
 		(uuid "a7d1c1ad-d240-44c6-942d-edbca7b16051")
+	)
+	(global_label "CLK"
+		(shape input)
+		(at 243.84 140.335 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0c869cb4-9e28-4d07-922c-aef77bb12fdf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.8212 140.4144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "VDD"
 		(shape input)
@@ -4160,28 +3942,6 @@
 		(uuid "405c2d85-93b1-4124-b184-bc4668031e01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 200.3962 81.915 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VDD"
-		(shape input)
-		(at 204.47 135.255 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "440e3051-85c9-4965-8f96-98461d824820")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 197.8562 135.255 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,28 +4083,6 @@
 			)
 		)
 	)
-	(global_label "RESET"
-		(shape input)
-		(at 239.395 145.415 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "879b3a91-2e1a-4b4f-b575-059d569ca561")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 247.5533 145.3356 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LIS_INT"
 		(shape input)
 		(at 207.01 71.755 180)
@@ -4389,6 +4127,28 @@
 			)
 		)
 	)
+	(global_label "VDD"
+		(shape input)
+		(at 233.68 122.555 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92e15e12-4e2e-4b96-ad1e-3456b29aa4e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 233.68 115.9412 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SDA"
 		(shape input)
 		(at 157.48 41.275 90)
@@ -4402,28 +4162,6 @@
 		(uuid "93952c73-e040-4c5f-8ccf-f24969f5b1f3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 157.48 34.7217 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CLK"
-		(shape input)
-		(at 239.395 137.795 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "99a489b6-4d20-4346-b857-47651a803349")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.3762 137.8744 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4565,6 +4303,28 @@
 			)
 		)
 	)
+	(global_label "DIO"
+		(shape input)
+		(at 243.84 142.875 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cef053f5-0db8-4622-9aa9-c1eb7241dc98")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.4583 142.9544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VDD"
 		(shape input)
 		(at 67.945 98.425 180)
@@ -4631,6 +4391,28 @@
 			)
 		)
 	)
+	(global_label "RESET"
+		(shape input)
+		(at 243.84 135.255 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5937343-c86c-4727-b1fb-e217bf47f109")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 251.9983 135.1756 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SCL"
 		(shape input)
 		(at 165.735 41.275 90)
@@ -4671,28 +4453,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DIO"
-		(shape input)
-		(at 239.395 135.255 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fefbdf1b-622d-4281-8c15-9be5dc8f665a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 245.0133 135.3344 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4756,78 +4516,6 @@
 			(project "BLERoomSensore"
 				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
 					(reference "H1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 205.74 137.795 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "09e31f8f-440c-4dc8-8a71-8a72548eb746")
-		(property "Reference" "#PWR09"
-			(at 205.74 144.145 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 205.74 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 205.74 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 205.74 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89c306eb-9ea7-41f7-9ed0-e1ccf6e2fe44")
-		)
-		(instances
-			(project "soilSensor"
-				(path "/22c87db3-60ad-446e-b561-43ae48bda016"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-			(project "BLERoomSensore"
-				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -5029,136 +4717,6 @@
 			(project "BLERoomSensore"
 				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
 					(reference "TP_LIS1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 208.28 135.255 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c999641-fdde-416d-b2f2-b97422b158b1")
-		(property "Reference" "R5"
-			(at 208.28 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 209.55 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
-			(at 208.534 134.239 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" ""
-			(at 208.28 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 208.28 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RC0402JR-070RL"
-			(at 208.28 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Seeed Alt." ""
-			(at 208.28 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JPN" "C60485"
-			(at 208.28 135.255 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "YAGEO"
-			(at 208.28 135.255 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dbf15e42-340c-46fc-9edb-8a91231d3765")
-		)
-		(pin "2"
-			(uuid "2f9633b7-83a0-4cf1-b4ff-bf0e9aed828e")
-		)
-		(instances
-			(project "soilSensor"
-				(path "/22c87db3-60ad-446e-b561-43ae48bda016"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "BLERoomSensore"
-				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
-					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5638,43 +5196,35 @@
 		)
 	)
 	(symbol
-		(lib_id "FTSH-105-01-F-DV-P-TR:FTSH-105-01-F-DV-P-TR")
-		(at 224.79 140.335 0)
+		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
+		(at 236.22 140.335 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5c1c585c-93e6-477a-a3ec-628109d65310")
-		(property "Reference" "J1"
-			(at 224.79 127.635 0)
+		(uuid "58fe4bdf-b114-4167-a8fe-2bef66624ed0")
+		(property "Reference" "J2"
+			(at 229.87 139.0649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "FTSH-105-01-F-DV-P-TR"
-			(at 224.79 130.175 0)
+		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
+			(at 229.87 141.6049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "FTSH-105-01-F-DV-P-TR:SAMTEC_FTSH-105-01-F-DV-P-TR"
-			(at 224.79 140.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://gct.co/files/drawings/BD125.pdf"
-			(at 224.79 140.335 0)
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+			(at 236.22 158.115 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,28 +5232,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Connector Header Surface Mount 10 position 0.050 (1.27mm)"
-			(at 224.79 140.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "1.42"
-			(at 224.79 140.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Digikey P/N" "2073-BD125-10-A-0305-0580-L-BCT-ND"
-			(at 224.79 140.335 0)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
+			(at 236.22 155.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5711,8 +5241,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "BD125-10-A-0305-0580-L-B"
-			(at 224.79 140.335 0)
+		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
+			(at 236.22 140.335 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5720,64 +5250,28 @@
 				(hide yes)
 			)
 		)
-		(property "JPN" "C5886427"
-			(at 224.79 140.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "6"
+			(uuid "19372d66-cf29-48b6-a905-bc7dfc83844b")
 		)
-		(property "MFR" "GCT"
-			(at 224.79 140.335 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
+		(pin "3"
+			(uuid "6656314c-bf0e-4615-8b0d-de8c13931bb2")
 		)
-		(pin "01"
-			(uuid "fb943e83-0c0f-4841-bdea-d32e89d37fad")
+		(pin "4"
+			(uuid "f1027173-59bd-4cb4-b13c-3043551b5348")
 		)
-		(pin "02"
-			(uuid "24ae5dd1-c122-446f-aaf3-0ed097835a77")
+		(pin "1"
+			(uuid "88ae889d-2fc3-43dc-8a5f-d5a7bc1e6044")
 		)
-		(pin "03"
-			(uuid "0daa79d8-4b7f-4afc-84d1-a7a312515837")
+		(pin "5"
+			(uuid "72720e91-4eee-4603-95ca-fc7478df31a8")
 		)
-		(pin "04"
-			(uuid "c631705f-107a-4403-aeeb-1a4cbfb554b9")
-		)
-		(pin "05"
-			(uuid "13f30300-915c-45d3-93ce-dcf72f2cad17")
-		)
-		(pin "06"
-			(uuid "3fd7a29a-d279-4010-ab0c-63cc328bda89")
-		)
-		(pin "07"
-			(uuid "69bf1b7e-59f3-4a68-9ff8-0061799c2ed5")
-		)
-		(pin "08"
-			(uuid "ba038039-2a03-4826-87da-3cfd1a312fb9")
-		)
-		(pin "09"
-			(uuid "57e2b85a-d5ba-475a-9678-2474ef277e6f")
-		)
-		(pin "10"
-			(uuid "434a3991-0184-47fe-970e-2a62768570d5")
+		(pin "2"
+			(uuid "0fe7f7e2-39ed-4ba2-a022-c40ebf5fb22a")
 		)
 		(instances
-			(project "soilSensor"
-				(path "/22c87db3-60ad-446e-b561-43ae48bda016"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-			(project "BLERoomSensore"
+			(project ""
 				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
-					(reference "J1")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5845,122 +5339,6 @@
 			(project "BLERoomSensore"
 				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Timer_RTC:PCF8523TK")
-		(at 70.485 112.395 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6c91f6a3-91e4-4a13-8ebf-4c4008dc765d")
-		(property "Reference" "U5"
-			(at 87.63 106.0764 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PCF8523TK"
-			(at 87.63 108.6164 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SON:HVSON-8-1EP_4x4mm_P0.8mm_EP2.2x3.1mm"
-			(at 90.805 121.285 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf"
-			(at 70.485 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Realtime Clock/Calendar I2C Interface, HVSON-8"
-			(at 70.485 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JPN" "C2651518"
-			(at 70.485 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "PCF8523TK"
-			(at 70.485 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFR" "NXP Semicon"
-			(at 70.485 112.395 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "cc03ce6d-325f-492e-a475-27a724a39dc2")
-		)
-		(pin "2"
-			(uuid "10308d36-8d4d-47d9-a370-ee71052f6f04")
-		)
-		(pin "9"
-			(uuid "e073beda-eab9-4f64-b944-8aa53065381f")
-		)
-		(pin "1"
-			(uuid "116ed687-e5e5-4bba-8d96-2c1b1662906c")
-		)
-		(pin "4"
-			(uuid "21c832f2-c48f-4ea4-afa1-f2d5f8f87b9d")
-		)
-		(pin "5"
-			(uuid "6b84663c-e534-44b4-86fb-09191f034c1d")
-		)
-		(pin "6"
-			(uuid "b9da9cc1-0aa4-48a9-ae2b-f3180d56d8c6")
-		)
-		(pin "7"
-			(uuid "b788cf8e-b920-40b2-a05e-127d47fc5bc5")
-		)
-		(pin "8"
-			(uuid "db0b6afb-9873-408f-9e0d-4860494b4977")
-		)
-		(instances
-			(project ""
-				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6088,7 +5466,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "X206032768KGB2SC"
+		(property "MPN" "FC-12M 32.7680KA-A3"
 			(at 46.355 113.665 90)
 			(effects
 				(font
@@ -6097,7 +5475,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFR" "YXC Crystal Oscillators"
+		(property "MFR" " Seiko Epson"
 			(at 46.355 113.665 90)
 			(effects
 				(font
@@ -6106,7 +5484,7 @@
 				(hide yes)
 			)
 		)
-		(property "JPN" "C2236"
+		(property "JPN" " C1985290"
 			(at 46.355 113.665 90)
 			(effects
 				(font
@@ -6125,6 +5503,119 @@
 			(project ""
 				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
 					(reference "XTAL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Timer_RTC:PCF8523T")
+		(at 70.485 112.395 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7865295b-45c9-417d-b403-3860adcb1342")
+		(property "Reference" "U5"
+			(at 86.36 106.0764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PCF8523T"
+			(at 86.36 108.6164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 90.805 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nxp.com/docs/en/data-sheet/PCF8523.pdf"
+			(at 70.485 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Realtime Clock/Calendar I2C Interface, SOIC-8"
+			(at 70.485 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " PCF8523T/1,118"
+			(at 70.485 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" " NXP Semicon"
+			(at 70.485 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JPN" "C2651516"
+			(at 70.485 112.395 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "9af3cc68-b493-414c-8374-b580a75ff9ff")
+		)
+		(pin "7"
+			(uuid "d477b563-6f16-43d7-b0c3-ad3df0dd0aea")
+		)
+		(pin "6"
+			(uuid "1d8227f5-76d1-4dfb-b761-4b0ac3c74c66")
+		)
+		(pin "5"
+			(uuid "9027182c-e8c4-4668-bb72-f00543dfacb8")
+		)
+		(pin "4"
+			(uuid "aac1e374-1e68-481b-aa6f-a5d02cf3e821")
+		)
+		(pin "3"
+			(uuid "7620ae0b-1ba6-4560-95e9-d7787e03f293")
+		)
+		(pin "2"
+			(uuid "f72f08eb-5962-48aa-82c5-b8b166c64028")
+		)
+		(pin "1"
+			(uuid "1d4dd04a-c2cb-4f06-bf4d-bdf64043df1c")
+		)
+		(instances
+			(project ""
+				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -6284,6 +5775,72 @@
 			(project ""
 				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
 					(reference "BT1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 233.68 150.495 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99e06204-2bdd-4bbe-a386-e917a5329b14")
+		(property "Reference" "#PWR012"
+			(at 233.68 156.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 150.495 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9da73853-08d2-4a47-bdc0-6836276e6141")
+		)
+		(instances
+			(project "BLERoomSensore"
+				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6750,6 +6307,131 @@
 			(project "BLERoomSensore"
 				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 233.68 126.365 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7b6e426-94e0-41ce-b4e6-67be5973e401")
+		(property "Reference" "R1"
+			(at 235.585 126.3649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0"
+			(at 231.14 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
+			(at 232.664 126.111 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 233.68 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey P/N" ""
+			(at 233.68 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price" ""
+			(at 233.68 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RC0402JR-070RL"
+			(at 233.68 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Seeed Alt." ""
+			(at 233.68 126.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JPN" "C60485"
+			(at 233.68 126.365 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFR" "YAGEO"
+			(at 233.68 126.365 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0ae5496-8dbc-433f-a361-b6ab35ddbd6c")
+		)
+		(pin "2"
+			(uuid "fc864801-345b-47b8-b331-ca26711313fb")
+		)
+		(instances
+			(project "BLERoomSensore"
+				(path "/cf334fc2-e74d-40e7-9d4d-8acdb315bdd0"
+					(reference "R1")
 					(unit 1)
 				)
 			)
