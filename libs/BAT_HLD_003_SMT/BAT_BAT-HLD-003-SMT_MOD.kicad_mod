@@ -251,6 +251,13 @@
 		(solder_mask_margin 0.102)
 		(uuid "479d5bb2-e9d2-4e12-9be6-56801ba9dfe0")
 	)
+	(pad "1" smd rect
+		(at 12.9 0)
+		(size 5.7 6.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "1408ed1f-08d4-4efb-9424-1ecd4f0f8975")
+	)
 	(pad "2" smd custom
 		(at -7.5 3.5)
 		(size 1 1)
@@ -286,13 +293,6 @@
 			)
 		)
 		(uuid "4bf521c9-ca5f-4dfe-a660-e15e85dc2752")
-	)
-	(pad "NC" smd rect
-		(at 12.9 0)
-		(size 5.7 6.1)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_mask_margin 0.102)
-		(uuid "1408ed1f-08d4-4efb-9424-1ecd4f0f8975")
 	)
 	(model "${KIPRJMOD}/libs/BAT_HLD_003_SMT/BAT-HLD-003-SMT.step"
 		(offset
